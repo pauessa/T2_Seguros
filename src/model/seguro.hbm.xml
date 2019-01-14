@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping">
+
+<hibernate-mapping>
+  <class  name="model.Seguro" table="seguro">
+  <id name="idSeguro" column="idSeguro" type="integer"></id>
+        <property name="nif" />
+        <property name="nombre" />
+        <property name="ape1" />
+        <property name="ape2" />
+        <property name="edad" type="integer" />
+        <property name="numHijos" type="integer" />
+        <property name="fechaCreacion" type="timestamp" />
+  </class>
+</hibernate-mapping>
